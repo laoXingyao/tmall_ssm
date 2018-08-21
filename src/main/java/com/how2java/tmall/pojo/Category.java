@@ -18,8 +18,4 @@ public class Category {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = (name == null ? null : name.trim());//name.trim()去掉name两端的空白字符
-    }
-
 }
