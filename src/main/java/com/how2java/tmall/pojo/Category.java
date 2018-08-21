@@ -4,6 +4,7 @@ public class Category {
 
     private Integer id;
     private String name;
+    private String note;
 
     public Integer getId() {
         return id;
