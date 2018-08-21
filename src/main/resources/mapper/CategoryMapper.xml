@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.how2java.tmall.mapper.CategoryMapper">
+    <select id="list" resultType="com.how2java.tmall.pojo.Category">
+        select id,name from category order by id desc;
+    </select>
+</mapper>
