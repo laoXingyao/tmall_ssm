@@ -167,7 +167,7 @@ world!</br>
         </p>
     </li>
 </ul>--%>
-<%
+<%--<%
     //编码，解决中文乱码问题
     String str = URLEncoder.encode(request.getParameter("name"), "utf-8");
     //设置name和URL cookie
@@ -179,7 +179,7 @@ world!</br>
     //在响应头部添加cookie
     response.addCookie(name);
     response.addCookie(url);
-%>
+%>--%>
 <h2>设置Cookie</h2>
 <ul>
     <li>
